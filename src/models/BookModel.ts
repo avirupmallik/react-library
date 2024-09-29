@@ -3,7 +3,7 @@ class BookModels {
   title: string;
   author?: string;
   description?: string;
-  copies?: string;
+  copies?: number;
   copiesAvailable?: number;
   category?: string;
   img?: string;
@@ -13,7 +13,7 @@ class BookModels {
     title: string,
     author: string,
     description: string,
-    copies: string,
+    copies: number,
     copiesAvailable: number,
     category: string,
     img: string
